@@ -1,0 +1,28 @@
+.inputs {
+    background: #335;
+    max-width: 380px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 15px;
+}
+
+input,
+select {
+    background: none;
+    border: 0;
+    font-size: 20px;
+}
+
+
+input {
+    padding-left: 10px;
+    color: #fff;
+    width: 280px;
+}
+
+select {
+    padding: 15px;
+}
