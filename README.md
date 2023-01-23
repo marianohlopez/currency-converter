@@ -6,8 +6,11 @@
 
 Aplicación realizada con react js para almacenar las valoraciones de mercado más recientes de las monedas del mundo, lo que permite a las personas comparar el valor de una moneda con el de otras en la base de datos. Se utilizó la api de Fixer para tomar los valores de las monedas.
 
-### librerias utilizadas:
+### Librerias utilizadas:
 
 - react
 - axios
 - react-icons
+
+#### Link al sitio web:
+- https://currency-converter-mhl.netlify.app/
