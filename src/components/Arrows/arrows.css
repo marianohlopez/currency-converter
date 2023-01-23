@@ -1,0 +1,15 @@
+.arrowDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.global-class-name {
+    color: black;
+    font-weight: 15px;
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 20px;
+}

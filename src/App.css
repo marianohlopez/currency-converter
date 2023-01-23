@@ -1,10 +1,11 @@
 body {
-  background-color: #161616;
-  color: #ddd;
-  padding: 50px;
+  /* background-color: #161616; */
+  background-color: #e4b314;
+  /* color: #ddd; */
 }
 
 h1 {
-  color: #eef;
+  padding-top: 50px;
+  color: black;
   text-align: center;
 }

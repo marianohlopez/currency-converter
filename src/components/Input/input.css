@@ -1,0 +1,51 @@
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    background: rgb(182, 182, 185);
+    border: black 2px solid;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+input,
+select {
+    background: none;
+    border: 0;
+    font-size: 20px;
+}
+
+
+input {
+    padding-left: 10px;
+    color: black;
+    width: 90%;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+select {
+    padding: 15px;
+}
+
+select::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+select::-webkit-scrollbar-thumb {
+    background-color: rgba(15, 13, 13, 0.6);
+}

@@ -2,7 +2,7 @@ import './input.css';
 
 const Input = ({ currencies, currency, amount, onCurrencyChange, onAmountChange }) => {
     return (
-        <>
+        <div className='group'>
             <div className="inputs">
                 <input type="number" value={amount} onChange={e => onAmountChange(e.target.value)} />
                 <select value={currency} onChange={e => onCurrencyChange(e.target.value)}>
@@ -11,7 +11,8 @@ const Input = ({ currencies, currency, amount, onCurrencyChange, onAmountChange 
                     })}
                 </select>
             </div>
-        </>
+        </div>
+
     )
 }
 
